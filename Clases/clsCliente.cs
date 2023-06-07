@@ -10,6 +10,7 @@ namespace pApp_Serv_WEB.Clases
     {
         //Comentario de PRUEBAA
         //Comentario de Prueba 2
+        //comentario niultn
         DBVentaRopaEntities dbVentaRopa = new DBVentaRopaEntities();
         public tblCliente Cliente = new tblCliente();
 
