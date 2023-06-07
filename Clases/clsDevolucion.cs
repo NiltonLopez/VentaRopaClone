@@ -12,7 +12,7 @@ namespace pApp_Serv_WEB.Clases
         public tblDevolucione devolucione = new tblDevolucione();
 
         public List<ViewGridDevolucion> ListarTablaDevolucion()
-        {
+        {//
             return (from tblVt in dbVentaRopa.Set<tblVenta>()
                     join tblDv in dbVentaRopa.Set<tblDevolucione>()
                     on tblVt.idVenta equals tblDv.idVentaDevolucion
