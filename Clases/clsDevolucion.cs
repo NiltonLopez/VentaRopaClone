@@ -8,6 +8,7 @@ namespace pApp_Serv_WEB.Clases
 {
     public class clsDevolucion
     {
+        //Comentario
         DBVentaRopaEntities dbVentaRopa = new DBVentaRopaEntities();
         public tblDevolucione devolucione = new tblDevolucione();
 
