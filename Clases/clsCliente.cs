@@ -8,6 +8,7 @@ namespace pApp_Serv_WEB.Clases
 {
     public class clsCliente
     {
+        //Comentario de PRUEBAA
         DBVentaRopaEntities dbVentaRopa = new DBVentaRopaEntities();
         public tblCliente Cliente = new tblCliente();
 
